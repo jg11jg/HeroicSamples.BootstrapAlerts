@@ -42,6 +42,16 @@
     return Ok(new Widget { Name = "Test Widget"}).WithSuccess("Widget Retrieved!", "This is the widget you are looking for!");
 }</pre>
     <p><a href="/home/apidemo">Try it</a></p>
+    
+<div class="margin-bottom">
+    <h4>Razor Page</h4>
+    <p>Using Razor Pages?</p>
+    <pre>public IActionResult GetWidget()
+{
+    return Ok(new Widget { Name = "Test Widget"}).WithSuccess("And now with Razor!", "This is done with Razor Pages!");
+}</pre>
+    <p><a href="/Razor">Try it</a></p>
+
 
 </div>
 
